@@ -12,3 +12,9 @@ class GameCharacter:
 
         # Default starting level
         self._level = 1
+
+    @property
+    def name(self):
+        return self._name
+    
+    
